@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  
+}
+
+.site-header {
+  display: flex;
+  background: #eee;
+  height: 250px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 25px;
+}
+
+.header-name {
+  font-size: 8em;
+}
+
+.headshot {
+  width: 22em;
+  height: 22em;
+  border-radius: 50%;
+
+}
