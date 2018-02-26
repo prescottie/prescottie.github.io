@@ -8,15 +8,15 @@ a {text-decoration: none;}
 
 @media only screen and (max-width: 480px) {
 
+  body {
+    width: 100%;
+  }
+
   .headshot {
     left: 20px !important;
     top: 20px !important;
     position: absolute;
     height: 100px !important;
-    border-radius: 50%;
-    border: 6px solid #909090;
-    z-index: 3;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
   }
 
   .header-name {
@@ -31,6 +31,31 @@ a {text-decoration: none;}
     margin: 24px 0 !important;
   }
 
+  .timeline-item{
+    flex-direction: column;
+  }
+
+  .item-info-edu {
+    order: -2;
+  }
+
+  .edu-icon {
+    order: -1;
+  }
+
+  .item-content-edu, .item-content-exp {
+    width: 100% !important;
+  }
+
+  .item-info-edu, .item-info-exp {
+    width: 100% !important;
+  }
+
+  
+
+  .timeline::after{
+    border: none !important;
+  }
 }
 
 
@@ -109,7 +134,7 @@ a {text-decoration: none;}
 }
 
 .section {
-  padding: 48px 48px;
+  padding: 48px 24px;
 }
 
 .one {
@@ -225,7 +250,7 @@ a {text-decoration: none;}
   margin-bottom: 8px;
 }
 
-.timeline:after {
+.timeline::after {
   content:"";
   position: absolute;
   z-index: 0;
@@ -237,15 +262,10 @@ a {text-decoration: none;}
   transform: translate(-50%);
 }
 
-.edu {
-  color: #fff;
-}
 
 .edu-icon {
   padding: 8px;
   z-index: 4;
-  /* border-right: 1px solid #f2f; 
-  border-left: 1px solid #f2f;  */
 }
 
 .exp-icon {
