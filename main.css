@@ -298,5 +298,10 @@ a {text-decoration: none;}
   padding: 24px;
 }
 
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 
