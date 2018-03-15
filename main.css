@@ -5,6 +5,53 @@ body {
 }
 a {text-decoration: none;}
 
+@media only print {
+  body {
+    width: 100%;
+  }
+
+  .headshot {
+    left: 60px !important;
+    top: 20px !important;
+    position: absolute;
+    height: 200px !important;
+  }
+
+  .header-name {
+    font-size: 3em !important;
+  }
+
+  .section-text {
+    width: 100% !important;
+    font-weight: 400;
+  }
+  
+  .all-projects {
+    flex-direction: column;
+  }
+  
+  .project {
+    border: none !important;
+    box-shadow: none !important;
+    height: auto !important;
+    width: auto !important;
+    text-align: left;
+  }
+
+  .project-info {
+    display: flex !important;
+  }
+  .project-info-icon {
+    display: none;
+  }
+
+  .project-links {
+    display: flex !important;
+    height: 24px !important;
+    width: 24px !important;
+  }
+}
+
 
 @media only screen and (max-width: 480px) {
 
