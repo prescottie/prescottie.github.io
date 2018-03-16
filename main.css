@@ -35,7 +35,11 @@ a {text-decoration: none;}
     box-shadow: none !important;
     height: auto !important;
     width: auto !important;
-    text-align: left;
+    margin: 8px !important;
+  }
+
+  .project-name {
+    text-align: left !important;
   }
 
   .project-info {
@@ -45,10 +49,18 @@ a {text-decoration: none;}
     display: none;
   }
 
+  .project-info-text {
+    display: flex;
+  }
+
   .project-links {
     display: flex !important;
     height: 24px !important;
     width: 24px !important;
+  }
+
+  .section {
+    padding: 0 24px !important;
   }
 }
 
