@@ -315,22 +315,24 @@ a {text-decoration: none;}
   content:"";
   position: absolute;
   z-index: 0;
-  top: 250px;
-  bottom: 180px;
+  top: 285px;
+  bottom: 160px;
   left: 50%;
   border-left-width: 5px;
   border-left-style: dotted;
   transform: translate(-50%);
 }
 
+.timeline-icon-wrapper {
+  z-index: 3;
+  background: #8395a7;
+}
 
 .edu-icon {
-  padding: 8px;
   z-index: 4;
 }
 
 .exp-icon {
-  padding: 8px;
   z-index: 4;
 }
 
